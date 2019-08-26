@@ -1,0 +1,35 @@
+<style>
+  
+  h1{
+    font-family:serif;
+    font-weight:bold;
+    font-size:40px;
+  }
+
+  p{
+    font-family:serif;
+    font-weight:bold;
+    font-size:20px;
+  }
+
+  label{
+    font-family:serif;
+    font-weight:bold;
+    font-size:15px;
+  }
+
+  .heading{
+    display:inline-block;
+  }
+
+  .input{
+    position: absolute;
+    left:30px;
+  }
+
+  .errorMessage{
+    color: red;
+    padding-right:20px
+  }
+
+</style>
