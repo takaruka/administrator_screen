@@ -93,7 +93,7 @@
         <?php if(!empty($errors['loginEmail'])){echo '<span class="errorMessage">'.$errors['loginEmail'].'</span><br>';}  ?>
         <?php if(!empty($errors['loginPassword'])){echo '<span class="errorMessage">'.$errors['loginPassword'].'</span><br>';} ?>
         <p class="heading">Email</p>
-        <input type="text" name="Email">
+        <input type="text" name="Email" value="<?php if(!empty($_POST['Email'])) {echo $_POST['Email'];}?>">
         <?php 
             if(!empty($errors['Email'])){
                 echo '<span class="errorMessage">'.$errors['Email'].'</span>';
