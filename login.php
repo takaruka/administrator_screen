@@ -11,8 +11,8 @@
         $_POST['save']='on';
     }
 
-    //$_POST['Email']が空じゃなければ
-    if(!empty($_POST['Email'])){
+    //$_POST['login']か$_POST['Email']が空じゃなければ
+    if(!empty($_POST['login'])||!empty($_POST['Email'])){
 
         //Varidateクラスを読み込む
         $check = new Validate();
